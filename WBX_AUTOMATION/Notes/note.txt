@@ -1,0 +1,85 @@
+Cucumber is BDD.
+BDD--Behavioural data driven Framework
+Feature Login Scenario
+scenario  Login with valid user name and password 
+           given page URL should be entered
+           when enter correct user name is the field.
+           when enter correct password in the password field.
+           Then Home page is opened.
+
+ scenario   Login with Invaild user name and password
+            When enter incorrect user name in the field
+            when enter correc passowrd in the passord field
+            then click on  sign in button
+            then   
+
+            ucumber is called a BDD framework
+
+
+BDD -- Behavioural data Driven framework
+
+Feature Login Scenarion
+
+
+Scenarion :- Valid User name and password should be correct
+
+    given Page URL  should be loaded 
+    Then ENtrer Correct user name in Field
+    Then  Enter Correct Passsword in Field
+    Then Click on Sign In Button
+    When user should validate it is login into the home page
+
+    Scenarion :- Valid User name and InCorect password should be correct
+
+    given Page URL  should be loaded 
+    Then ENtrer Correct user name in Field
+    Then  Enter Correct Passsword in Field
+    Then Click on Sign In Button
+    When user should validate it is login into the home page
+
+
+   await browser.url("http://www.google.com")
+
+
+
+   We have to find the correct locator for wdio
+
+   Xpath -
+
+
+   purple color -< - Tag name
+   Red colo r- Attribute
+   Blue colo r- Value
+   Black color - Text
+
+
+   1   //tagname[@attribute='value']
+
+   //textarea[@title='Search']
+
+   //a[@aria-label='Gmail ']
+
+   2  //tagname[text()='text value']
+
+   //a[text()='About']
+
+
+   3- (//a[text()='Customer Service'])[1]     location wise Xpath
+
+   4   ----   //a[text()='Today's Deals']
+
+   contains
+
+   //tagname[contains(text(),'search value')]
+
+   //a[contains(text(),'Today')]
+
+
+   (//a[contains(text(),'De')])[1]  
+
+
+   https://www.demo.guru99.com/test/newtours/
+
+
+
+   Css        
